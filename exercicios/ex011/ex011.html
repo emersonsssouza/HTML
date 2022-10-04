@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5 </title>
+</head>
+<body>
+    <h1> Imagens Dinamicas </h1>
+    <p> tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture> 
+
+
+        <source media="(max-width:700px)"srcset="imagens/imagemp.png" 
+        type="image/png">
+        <source media="(max-width: 1050px)"srcset="imagens/imagemm.png" 
+        type="image/png">
+        
+     <img src="imagens/imagemg.png"alt="imagem flexivel">
+
+ 
+    </picture>
+    <h1> Repoduzindo audio</h1>
+    <p> vamos colocar abaixo uma musica para voce ouvir livremente </p>
+    <audio src="midia/foster.mp3" controls autoplay> </audio>
+
+    <h1> Outra maneira de reproduzir audio</h1>
+    <p>vamos colocar abaixo uma musica para voce ouvir livremente</p>
+    <audio preload="metadata" autoplay controls loop>
+        
+        <source src="midia/foster.mp3" type="audio/mpeg">
+        <source src="midia/Sonata.mp3" type="audio/mpeg">
+        <p>Infelizmente o seu navegador não consegue reproduzir audio. <a href="midia/foster.mp3">clique aqui para baixar o arquivo mp3</a> </p>
+
+    </audio> 
+    
+</body>
+</html>
