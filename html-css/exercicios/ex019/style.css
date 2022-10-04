@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 
+Em HTMl é id = em CSS é #
+Em HTML é class = em CSS é .
+
+font family = família de fontes
+font size = tamanho da fonte
+color = cor 
+font weight = espessura da fonte
+text ident = identificador de texto
+class = classe      
+
+*/
+
+body{
+    background-color: rgb(188, 248, 128);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(4, 109, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: green(4, 109, 0);
+    color: white;
+
+}
+
+h2{
+    color: rgb(73, 109, 71);
+}
+.basico{
+    color: rgb(245, 48, 48);
+    font-weight: bold;
+}
+.avancado{
+    color: rgb(5, 8, 1);
+    font-weight: bolder;
+
+}
+.intermediario {
+    color: rgb(254, 155, 84);
+    font-weight: lighter;
+}
+.destaque{
+    background-color: rgb(255, 225, 0);
+}
