@@ -11,5 +11,5 @@
  <a href="https://emersonsssouza.github.io/HTML/exercicios/ex007/index.html">ex007</a>
  <a href="https://emersonsssouza.github.io/HTML/exercicios/ex008/index.html">ex008</a>
  <a href="https://emersonsssouza.github.io/HTML/exercicios/ex009/index.html">ex009</a>
- <a href="">ex010</a>
- <a href="">ex011</a>
+ <a href="https://emersonsssouza.github.io/HTML/exercicios/ex010/pagina001.html">ex010</a>
+ <a href="https://emersonsssouza.github.io/HTML/exercicios/ex011/index.html">ex011</a>
