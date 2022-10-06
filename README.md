@@ -19,9 +19,9 @@
      <a href="https://emersonsssouza.github.io/HTML/exercicios/ex015/index.html">ex015</a> <br>
      <a href="https://emersonsssouza.github.io/HTML/exercicios/ex016/cor01.html">ex016</a> <br>
      <a href="https://emersonsssouza.github.io/HTML/exercicios/ex017/fonte01">ex017</a>
-     <a href="">ex018</a>
-     <a href="">ex019</a>
-     <a href="">ex020</a>
+     <a href="https://emersonsssouza.github.io/HTML/exercicios/ex018/index">ex018</a>
+     <a href="https://emersonsssouza.github.io/HTML/exercicios/ex019/hover">ex019</a>
+     <a href="https://emersonsssouza.github.io/HTML/exercicios/ex020/index">ex020</a>
      <a href="https://emersonsssouza.github.io/HTML/exercicios/ex021/caixa01#">ex021</a>
      <a href="https://emersonsssouza.github.io/HTML/exercicios/ex022/fundo006">ex022</a>
      <a href="">ex023</a>
