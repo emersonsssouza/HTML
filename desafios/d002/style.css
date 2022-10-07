@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body{ 
+    background-color: burlywood;
+}
+div {
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+div{ 
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+h1{ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    font-size: 70px
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 40px;
+}
+.destaque {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basico{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.intermediario {
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+    
+}
+.avancado{
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+    
+}
+
+p{text-indent: 20px;}
