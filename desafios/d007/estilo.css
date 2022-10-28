@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 100%;
+}
+
+main {
+    margin: auto;
+    background-image: url(imagens/imagem\ background\ \(Personalizado\).jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    border: 10px solid black;
+
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}  
+
+header > h1{
+    text-align: left;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    text-align: center;
+    margin-top: -65px;
+    margin-left: 450px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+nav.menu {
+    margin-top: 30px;
+
+}
+
+nav > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+section {
+    margin: auto;
+}
+
+section > p {
+    text-align: center;
+    margin-left: 450px;
+    font-size: 22px;
+    text-indent: 20px;
+    padding: 20px;
+    color: black;
+}
+
+a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+a.m1 {
+    color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+a.m2 {
+    color: red;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+a.m3 {
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+a.c1 {
+    color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+a.c2 {
+    color: red;
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+a.c3 {
+    color: blue;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+article {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 60px;
+}
+
+
+
+
+ 
+
