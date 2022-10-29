@@ -106,17 +106,70 @@ a.c3 {
     border-radius: 5px;
 }
 
-article {
+article  {
+    margin: 0px;
     background-color: black;
+    
+}
+
+article > h1{
+    text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    text-align: center;
-    padding: 60px;
+    padding: 20px;
 }
 
+section.hab1   {
+    width: 105px;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    padding: 20px;
+    border: 4px solid black;
+    margin-left: 200px;
+    margin-top: 20px;
+}
 
+section.hab2 {
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    padding: 20px;
+    border: 4px solid black;
+    margin-right: 200px;
+    margin-top: 100px;
+}
 
+section.imagens {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center; 
+    padding: 50px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+   }
+   
+   
+   
+  section.texto {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     text-align: center;
+     padding: 60px;
+     margin: auto;
 
- 
+   }
+
+   section.texto1 {
+      width: 100%;
+      margin: 0px;
+      text-align: center;
+      justify-content: space-around;
+      align-items: center;
+      display: flex;
+      justify-items: flex-start;
+   }
 
