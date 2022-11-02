@@ -1,87 +1,43 @@
-body
-{
-    background-color: rgb(204, 204, 204);
+@charset "utf-8";
+
+* {
+   margin: 0px;
+   padding: 0px;
 }
-h1
-{
-    text-align: center;        
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
-    font-style: italic;
+
+body {
+    width: 100%;
+   
 }
-.titulo5
-{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+
+header {
+    width: 100%;
+    height: 168px;
+    background-color: white;
+   
+
+}
+
+nav {
+    background-color: transparent;
+    margin: auto;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+  
+}
+
+a {
+    color: #3B538C;
+    text-decoration: none;
     font-weight: bold;
 }
-.titulo2
-{
-    background-color: red;
-    color: black;
+
+main {
+   
 }
-.titulo2:hover
-{
-text-decoration: underline;
-color: black;
-background-color: yellow;    
-}
-p
-{
-    text-align:justify;    
-}
-.c
-{
-text-align: center;
-}
-.titulo 
-{
-    background-color: red;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-}
-a:visited {
-color: blueviolet;
-}
-.a {
-    text-align: justify;
-    font-family:Arial, Helvetica, sans-serif;
-    text-indent: 20px;
-} 
-a:hover 
-{
-    text-decoration: underline;
-    color: black;
-}
-.titulo:hover
-{
-text-decoration: underline;
-color: black;
-background-color: yellow;
-}
-.li:hover 
-{
-text-decoration: underline;
-color: chartreuse;
-}
-.lo:hover
-{
-   text-decoration: underline;
-   color: black;
-}
-.retifica:hover
-{
- text-decoration: underline;
- color: blueviolet;
-}
-div{
-   display: inline-block;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: 600;
-   font-size: large;
-   font-style: normal;
-   background-color: rgba(17, 17, 181, 0.636);
-   text-align: center;
-   height: 30px;
-   width: 217px;
-}
+
+

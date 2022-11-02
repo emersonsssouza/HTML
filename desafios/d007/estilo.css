@@ -183,12 +183,11 @@ section.imagens {
     text-align: center;
     font-size: 30px;
     padding: 50px;
-    justify-content: space-between;
-    justify-content: flex-start;
-    display: flex;
+   
    }
 
    section.link > a.l1 {
+    margin: auto; 
     text-decoration: none;
     color: green;
     border: 3px solid green;
