@@ -135,9 +135,13 @@ nav.menu {
     justify-content: space-around;
 }
 
- a.caixa {
+a.caixa {
     color: #3B538C;
-    text-decoration: none;
+ }
+
+ a:hover {
+   text-decoration: underline;
+   
 }
 
 div.submenu {
@@ -146,6 +150,14 @@ div.submenu {
     justify-content: space-around;
     margin: auto;
     width: 700px; 
+}
+
+div.sub a {
+   color: white;
+}
+
+div.sub a:hover{
+   text-decoration: underline;
 }
 
 div.sub {
@@ -287,10 +299,13 @@ div.banner123 {
     width: 150px;
  }
 
+ p#galeria a {
+   color: white;
+ }
+
  div.secretarias {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
  }
 
  div.h1 {
@@ -299,6 +314,15 @@ div.banner123 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: bold;
+ }
+
+ div.h1 a {
+   color: #3B538C;
+ }
+
+ div.h1 a:hover {
+   color: #3B538C;
+   text-decoration: none;
  }
 
  div.secvideo {
@@ -314,28 +338,24 @@ div.banner123 {
  }
 
  iframe {
-   border: 50px solid white;
-    
+   border: 50px solid white;  
  }
 
-  strong {
+strong {
     color: #06BD89;
  }
 
-  ul {
-  display: block;
-  list-style-type: none;
-  columns: 2;
-  width: 800px;
-  
-  
+ul {
+    display: block;
+    list-style-type: none;
+    columns: 2;
+    width: 800px; 
  }
 
  li {
     line-height: 45px ;
     border: 1px solid black;
     padding: 10px;
-   
  }
 
  li.tp {
@@ -343,8 +363,8 @@ div.banner123 {
     text-align: center;
     margin-left: 30px;
     margin-right: 60px;
-    
  }
+
  div > li.tp {
     background-color: rgba(0, 128, 0, 0.805);
     border: 10px solid white;
@@ -352,7 +372,14 @@ div.banner123 {
     color: white ;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-   
+ }
+
+ li.tp a {
+   color: white;
+ }
+
+ li.tp a:hover {
+   text-decoration: underline;
  }
 
  div.centro {
@@ -364,8 +391,7 @@ div.banner123 {
  div.img5 {
     display: flex;
     margin: auto;
-    margin: 60px auto 60px auto;
-    
+    margin: 60px auto 60px auto; 
  }
 
  div.amarelo {
@@ -388,7 +414,6 @@ div.banner123 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
-    
  }
 
  div.amarelo > p#texto4 {
@@ -403,20 +428,16 @@ div.banner123 {
  footer {
     width: 100%;
     background-color: #3B538C;
-    height: 340px;
-    
- }
+    height: 340px; 
+    }
 
  footer  h1 {
     font-size: 20px;
-  
-    
- }
+   }
 
  footer h4 {
     font-size: 16px;
-    font-weight: bold;
-    
+    font-weight: bold;  
  }
 
  footer p {
@@ -438,7 +459,6 @@ div.banner123 {
     justify-content: space-around;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-   
  }
 
  div.cidade {
@@ -446,7 +466,6 @@ div.banner123 {
     padding: 20px;
     justify-content: space-around;
     margin: 1px 20px 10px 5px;
-
  }
 
  footer a {
@@ -456,4 +475,9 @@ div.banner123 {
 
  footer a:hover {
     text-decoration: underline;
+ }
+
+ footer img {
+   display: flex;
+   margin: auto;
  }
