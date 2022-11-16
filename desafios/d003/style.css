@@ -152,13 +152,16 @@ div.sub {
      line-height: 60px;
      align-items: center;
      text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
      border: 10px solid transparent; 
         
 }
 
 div.sub > li {
-    background-color: #178b6b;
+    background-color: #178b6ad0;
     color: white;
+    border: 1px solid transparent;
     border-radius: 20px;
     font-size: 20px;
 }
@@ -343,7 +346,7 @@ div.banner123 {
     
  }
  div > li.tp {
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.805);
     border: 10px solid white;
     border-radius: 20px;
     color: white ;
@@ -351,15 +354,106 @@ div.banner123 {
     font-family: Arial, Helvetica, sans-serif;
    
  }
- 
 
+ div.centro {
+    width: 100%;
+    background-color: white;
+    display: flex;
+ }
+
+ div.img5 {
+    display: flex;
+    margin: auto;
+    margin: 60px auto 60px auto;
     
+ }
 
+ div.amarelo {
+    background-color: #3B538C;
+    width: 250px;
+    display: flex;
+    margin: 0px;
+ }
 
+ div.amarelo > img#amarelo {
+    display: flex;
+    padding: 2px ;
+    margin-top: 33px;
+ }
 
-
+ div.amarelo > p#texto3 {
+    display: flex;
+    margin: 20px 30px 20px 5px;
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
     
+ }
 
+ div.amarelo > p#texto4 {
+    display: flex;
+    margin: 80px 30px 10px -115px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+ }
 
+ footer {
+    width: 100%;
+    background-color: #3B538C;
+    height: 340px;
+    
+ }
 
+ footer  h1 {
+    font-size: 20px;
+  
+    
+ }
 
+ footer h4 {
+    font-size: 16px;
+    font-weight: bold;
+    
+ }
+
+ footer p {
+    font-size: 16px;
+ }
+
+ div.favicon {
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: -70px;
+    height: 9%;
+ }
+
+ div.footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+ }
+
+ div.cidade {
+    line-height: 40px;
+    padding: 20px;
+    justify-content: space-around;
+    margin: 1px 20px 10px 5px;
+
+ }
+
+ footer a {
+    text-decoration: none;
+    color: white;
+ }
+
+ footer a:hover {
+    text-decoration: underline;
+ }
