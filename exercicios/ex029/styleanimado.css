@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 405px;
+    height: 300px;
+    transform: translate(-50% , -50%);
+    color: black;
+    padding: 20px;
+    text-align: left;
+    border-radius: 7px;  
+    font:  bold 2em 'century gothic';   
+    border: 3px solid black;
+}
+
+input.botao {
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+input.botao:hover {
+    background-color: black;
+    color: white;
+}
+
+input.caixa {
+    text-align: left;
+}
+   
+form::before, form::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 20px;
+    height: 00px ;
+    background: linear-gradient(45deg , #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000,  #ffff00, #00ff00, #0099ff, #001aff, #a200ff );
+    background-size: 300%;
+    border-radius: 8px;
+    animation: animarborda 8s linear alternate infinite; 
+}
+
+@keyframes animarborda {
+    0% {
+        background-position: -50%;
+    }
+    100% {
+        background-position: 50%;
+    }
+}
+
+.borda ::after{
+    filter: blur(100px);
+}

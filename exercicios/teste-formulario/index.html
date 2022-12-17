@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="borda">
+        <form action="cadastro.php" method="get">
+        
+                <p>
+                    <label type="text" name="usu" id="iuse" required > Usuario:</label>
+                    <input class="caixa" type="text" name="Login" id="ilogin" required>
+        
+                </p>
+                <p>
+                    <label for="tel" name="Telefone" id="itel">Telefone:</label>
+                    <input class="caixa" type="tel" name="tel" id="itell">
+                </p>
+                <p>
+                    <label for="text" name="email" id="iemail">Email:</label>
+                    <input class="caixa" type="email" name="Email" id="iemail" required>
+        
+                </p>
+                <p>
+                    <label for="isen">Senha:</label>
+                    <input class="caixa" type="password" name="Sen" id="isen" required>
+                </p>
+                <p>
+                    <label for="iend">Endereço:</label>
+                    <input class="caixa" type="text" name="end" id="iend" required>
+                </p>
+                <p>
+                    <label for="">Mes:</label>
+                    <input class="caixa" type="date" type="month" name="mon" id="imon" name="dat" id="idat">
+                </p>
+            <input  class="botao" type="submit" value="Enviar">
+            <input class="botao" type="reset" value="limpar">
+        </form>
+    </div>
+    
+</body>
+</html>
