@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+@media and (min-width: 360px) and (max-width: 720px) 
+    div.container img {
+        margin:20px
+    }
+
+    div.container input {
+        margin: 20px;
+    }
